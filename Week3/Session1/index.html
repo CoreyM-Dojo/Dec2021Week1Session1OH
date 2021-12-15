@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <img src="img/logo.png" alt="ps-logo">
+                <li>Games</li>
+                <li>Hardware</li>
+                <li>Services</li>
+                <li>News</li>
+                <li>Shop</li>
+                <li>Support</li>
+            </ul>
+
+            <div class="sign-in-and-search">
+                <button onclick="alert('You have successfully signed in')">Sign in</button>
+                <form action="#">
+                    <input type="text" name="search">
+                    <img src="img/search.png" alt="search icon">
+                </form>
+            </div>
+        </nav>
+        <div class="main">
+            <p onmouseover="changeColorLime(this)" onmouseout="changeColorBack(this)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tenetur quasi est.</p>
+            <button onclick="hideMid()">Find out more</button>
+            <div class="ps-bar">
+                <div class="left">
+                    <img src="img/games1.jpg" alt="games 1">
+                    <p>2021: The PlayStation ultimate review</p>
+                </div>
+                <div id="mid" class="middle">
+                    <img src="img/games2.jpg" alt="games 2">
+                    <p>Best single-player adventures on PS4 and PS5</p>
+                </div>
+                <div class="right">
+                    <img src="img/games3.jpg" alt="games 3">
+                    <p>Final Fantasy XIV: An absolute beginners' guide</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
